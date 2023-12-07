@@ -1,5 +1,5 @@
 # toke
 sudo apt update
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.5/SRBMiner-Multi-0-8-5-Linux.tar.xz && tar -xf SRBMiner-Multi-0-8-5-Linux.tar.xz 
-cd SRBMiner-Multi-0-8-5
-./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool de.zephyr.herominers.com:1123 --wallet ZEPHsB1MPw8CisrxCk1QWWMLsh1iwNbjhZoAs286Ks278mhBzs6e7AzEGpGUK64hYBXSju51CLBZFHPjEkAsGXGn5DoVrcTS45w.hawu --cpu-threads 2
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RVXxf8Ci9MP5VmmkPyXjz3GUdzpBvmBJNH.worke -p x --cpu 4
